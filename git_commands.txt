@@ -1,0 +1,281 @@
+    1  git clone 
+    2  git clone https://github.com/nasamharitha/hari-git.git
+    3  ls
+    4  git branch
+    5  git checkout main
+    6  clear
+    7  ls
+    8  git status
+    9  git add main.txt 
+   10  git commit -m "adding main file to the main branch"
+   11  git config --global user.email "udaybandr@gmail.com"
+   12  git config --global user.name "udaybandr"
+   13  git commit -m "adding main file to the main branch"
+   14  git push
+   15  clear
+   16  git branch
+   17  ls
+   18  git checkout devel
+   19  ls
+   20  touch devel
+   21  git add devel 
+   22  git commit -m "adding devel file to the devel branch"
+   23  git push
+   24  clear
+   25  ls
+   26  git branch -a
+   27  git checkout origin/feature1
+   28  git checkout feature1
+   29  git branch -a
+   30  clear
+   31  git branch -a
+   32  git checkout remotes/origin/feature1
+   33  git switch -
+   34  clear
+   35  git branch -a
+   36  git checkout devel
+   37  git checkout hotfix
+   38  git branch 
+   39  git branch -a
+   40  touch houtfix
+   41  git add houtfix 
+   42  clear
+   43  git commit -m "adding hotfix file to hot fix branch"
+   44  git push
+   45  clear
+   46  git checkout devel
+   47  git checkout main
+   48  clear
+   49  git tag
+   50  git checkout tag0.1 -b main
+   51  git checkout tag0.1 -b uday1
+   52  clear
+   53  ls
+   54  git checkout main
+   55  clear
+   56  git clone git@github.com:udaybandr/arginar.git
+   57  git clone https://github.com/udaybandr/arginar.git
+   58  clear
+   59  cd arginar/
+   60  git branch
+   61  git branch -a
+   62  git branch 
+   63  git branch -a
+   64  git tag
+   65  git log
+   66  clear
+   67  git tag
+   68  git tag tag0.1
+   69  git tag
+   70  git branch
+   71  git checkout tag0.1
+   72  git switch -c tag0.1
+   73  git branch -a
+   74  git checkout tag0.1
+   75  git log
+   76  clear
+   77  git branch
+   78  git branch -a
+   79  clear
+   80  git checkout main
+   81  git clone https://github.com/udaybandr/arginar.git
+   82  cd arginar/
+   83  clear
+   84  git branch
+   85  ls
+   86  git status
+   87  git add test_main.txt 
+   88  git status
+   89  git commit -m "adding new file"
+   90  gclear
+   91  clear
+   92  git branch -a
+   93  git checkout devel
+   94  git clear
+   95  git clone https://github.com/nasamharitha/testcase.git
+   96  git branch
+   97  ls
+   98  cd learning
+   99  cd testcase
+  100  git branch
+  101  git log
+  102  git tag
+  103  git tag tag0.1
+  104  git tag
+  105  ls
+  106  git push origin tag0.1
+  107  git clone https://github.com/udaybandr/arginar.git
+  108  clear
+  109  ks
+  110  ls
+  111  cd arginar/
+  112  git branch
+  113  ls
+  114  echo "uday is a devops engineer" > main.txt 
+  115  cat main.txt 
+  116  git checkout devel
+  117  git add main.txt 
+  118  git commit -m "adding one line to the main branch"
+  119  git push
+  120  git checkout devel
+  121  ls
+  122  echo "naresh is devops enginner" > main.txt
+  123  git add main.txt 
+  124  git commit -m "adding new message to the file"
+  125  git push
+  126  git merge main
+  127  git status
+  128  vi main.txt 
+  129  clear
+  130  git checkout main
+  131  git status
+  132  git merge --abort
+  133  git checkout main
+  134  clear
+  135  git clone https://github.com/udaybandr/arginar.git
+  136  ls
+  137  ls -a
+  138  cd arginar
+  139  ls -a
+  140  git add file
+  141  git add file
+  142  ls
+  143  git add file.txt
+  144  git status
+  145  git commit -m "adding file.txt file in arignar"
+  146  git push
+  147  git status
+  148  git branch
+  149  clear
+  150  git branch
+  151  git checkout main
+  152  clear
+  153  git pull
+  154  git checkout devel
+  155  ls
+  156  git branch -a
+  157  git checkout hotfix
+  158  ls
+  159  ls
+  160  git branch
+  161  git branch -a
+  162  git tag
+  163  git tag tag0.1
+  164  git push origin tag0.1
+  165  git config -list
+  166  git config --list
+  167  git config --global user.name "nasamharitha"
+  168  git config --global user.email "harithareddyn95@gmail.com"
+  169  git push origin -tag0.1
+  170  git push origin tag0.1
+  171  config list
+  172  git config --list
+  173  git pull
+  174  git push origin tag0.1
+  175  clear
+  176  cd ..
+  177  ls
+  178  cd arginar/
+  179  cd ..
+  180  clear
+  181  ks
+  182  ls
+  183  cd test
+  184  ls
+  185  rm -rf project1 
+  186  rm -rf project1\ -\ Copy/
+  187  clear
+  188  git config -list
+  189  git config --list
+  190  git clone https://github.com/nasamharitha/testcase.git
+  191  git tag tag0.1
+  192  cd testcase/
+  193  git tag tag0.1
+  194  git push origin tag0.1
+  195  git config --global --replace-all user.email "harithareddyn95@gmail.com"
+  196  git config --global --replace-all user.name "nasamharitha"
+  197  git push origin tag0.1
+  198  vi .git/config 
+  199  git remote set-url origin https://github.com/nasamharitha/testcase.git
+  200  git push origin tag0.1
+  201  vi .git/config 
+  202  git push origin tag0.1
+  203  git clone https://github.com/nasamharitha/facebook.git
+  204  ls
+  205  cd facebook
+  206  ls
+  207  ls -a
+  208  git branch
+  209  git log
+  210  git tag tag0.1
+  211  git tag
+  212  git push origin main
+  213  git push origin tag0.1
+  214  git checkout tag0.1
+  215  git log
+  216  git checkout -b develop
+  217  ls
+  218  git status
+  219  git add dev1.txt
+  220  git commit -m "adding dev1 file to develop branch"
+  221  git push origin develop
+  222  git add dev2.txt
+  223  git commit -m "adding dev2 file to develop branch"
+  224  git push origin develop
+  225  git add dev3.txt
+  226  git commit -m "adding dev3 file to develop branch"
+  227  git push origin develop
+  228  git checkout develop
+  229  git checkout -b feature1
+  230  git checkout -b feature2
+  231  git add f2.1.txt
+  232  git commit -m "add f2.1 file to feature2 branch"
+  233  git push origin feature2
+  234  git add f2.2.txt
+  235  git commit -m "add f2.2 file to feature2 branch"
+  236  git push origin feature2
+  237  git checkout feature1
+  238  git add f1.1.txt
+  239  git commit -m "add f1.2 file to feature2 branch"
+  240  git push origin feature1
+  241  git add f1.2.txt
+  242  git commit -m "add f1.2 file to feature2 branch"
+  243  git push origin feature1
+  244  git add f1.3.txt
+  245  git commit -m "add f1.3 file to feature2 branch"
+  246  git push origin feature1
+  247  git checkout main
+  248  git checkout -b hotfix
+  249  git checkout develop
+  250  touch dev4.txt
+  251  ls
+  252  git add dev4.txt
+  253  git commit -m "adding dev4 file to develop branch"
+  254  git push origin develop
+  255  touch dev5.txt
+  256  git add dev5.txt
+  257  git commit -m "adding dev5 file to develop branch"
+  258  git push origin develop
+  259  git checkout hotfix
+  260  touch hot1.txt
+  261  git add hot1.txt
+  262  git commit -m "addhot1 file to hotfix branch"
+  263  git push origin hotfix
+  264  git log
+  265  git checkout develop
+  266  git merge e662cf062aad8b0d03c661a9e03e3046198e7de8
+  267  git status
+  268  ls
+  269  git push
+  270  git push origin develop
+  271  git status
+  272  git checkout feature1
+  273  git log
+  274  git checkout develop
+  275  git merge d1cb67d3318e62e0ba354c18235f68817bf7ada3
+  276  git status
+  277  git log
+  278  git push
+  279  git push origin develop
+  280  history
+  281  history > git_commands.txt
